@@ -42,6 +42,7 @@ const QuestionOne = () => {
         }
       />
       <button onClick={tableshow}>Submit</button>
+      <p>console open</p>
     </div>
   );
 };

@@ -23,6 +23,7 @@ const QuestionTen = () => {
         placeholder="Stop Counting"
       />
       <button onClick={tableshow}>Submit</button>
+      <p>console open</p>
     </div>
   );
 };
