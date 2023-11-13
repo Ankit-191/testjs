@@ -11,16 +11,22 @@ import QuestionNine from "./components/QuestionNine";
 import QuestionTen from "./components/QuestionTen";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
+import Questioneleven from "./components/Questioneleven";
+import Methord from "./components/Methord";
+import Login from "./components/Login";
 
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
+      {/* <Questioneleven/> */}
+      <Login />
+      {/* <Methord /> */}
       <Routes>
-        <Route exact path="/" element={<QuestionOne />}></Route>
+        {/* <Route exact path="/" element={<QuestionOne />}></Route> */}
         <Route exact path="/two" element={<QuestionTwo />}></Route>
         <Route exact path="/three" element={<QuestionThree />}></Route>
-        <Route exact path="/four" element={<QuestionFour />}></Route>
+        {/* <Route exact path="/four" element={<QuestionFour />}></Route> */}
         <Route exact path="/five" element={<QuestionFive />}></Route>
         <Route exact path="/six" element={<QuestionSix />}></Route>
         <Route exact path="/seven" element={<QuestionSeven />}></Route>
