@@ -10,7 +10,7 @@ const Login = () => {
   const remove = () => {
     localStorage.removeItem("Name");
     localStorage.removeItem("Password");
-  };
+  }; 
   return (
     <div>
       <form action="">

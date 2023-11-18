@@ -1,4 +1,5 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import QuestionOne from "./components/QuestionOne";
 import QuestionTwo from "./components/QuestionTwo";
 import QuestionThree from "./components/QuestionThree";
@@ -14,14 +15,26 @@ import Header from "./components/Header";
 import Questioneleven from "./components/Questioneleven";
 import Methord from "./components/Methord";
 import Login from "./components/Login";
+import SecondTodo from "./components/SecondTodo";
+import UseContext from "./components/UseContext";
+import Usebtn from "./components/Usebtn";
+import Searchbar from "./components/Searchbar";
+import Cards from "./components/Cards";
+import Cardsecond from "./components/Cardsecond";
 
 function App() {
   return (
     <div>
       {/* <Header /> */}
       {/* <Questioneleven/> */}
-      <Login />
+      {/* <Login /> */}
+      {/* <SecondTodo/> */}
+      {/* <UseContext/> */}
+      {/* <Usebtn/> */}
       {/* <Methord /> */}
+      {/* <Searchbar/> */}
+      <Cards />
+      <Cardsecond />
       <Routes>
         {/* <Route exact path="/" element={<QuestionOne />}></Route> */}
         <Route exact path="/two" element={<QuestionTwo />}></Route>
